@@ -1,0 +1,46 @@
+---
+title: "HWP hangul replacement"
+author: "GHL"
+date: "2018년 10월 28일"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 한글의 주요 기능
+
+## 문장 작성...
+
+한글 파일에 포함된 문장은 이것으로 대체 가능합니다.
+
+
+## 수식
+$E=mc^2$
+
+
+## 이미지
+![great sceneary](gettyimages.jpg)
+
+
+## 표
+| first column | second column |
+|--------------|---------------|
+| 1번          | 2번           |
+
+
+## 데이터 분석 결과
+
+### 원본 데이터 살펴보기
+```{r}
+library(tidyverse)
+
+head(iris)
+```
+
+
+
+### 요약 통계량 만들기
+
+
