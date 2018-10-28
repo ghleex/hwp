@@ -1,6 +1,6 @@
 ---
 title: "HWP hangul replacement"
-author: "GHL"
+author: "GHL, Kim"
 date: "2018년 10월 28일"
 output: html_document
 ---
